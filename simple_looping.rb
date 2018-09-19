@@ -13,8 +13,10 @@ def loop_iterator(number_of_times)
 end
 
 def times_iterator(number_of_times)
+  7.times do
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
+  puts phrase
   
 end
 
@@ -33,10 +35,10 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-  # code your solution here using the "for" keyword
-  # remember that `for` requires a range of numbers. How can we turn our number into a range?
-  
+  number = 1..7
+  for number in number_of_times
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+  puts phrase
+  end
 end
 
