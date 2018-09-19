@@ -12,9 +12,10 @@ def times_iterator(number_of_times)
 end
 
 def while_iterator(number_of_times)
-  while number_of_times < 7
+  count = 0;
+  while count < number_of_times
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  
+    put phrase
 end
 
 def until_iterator(number_of_times)
